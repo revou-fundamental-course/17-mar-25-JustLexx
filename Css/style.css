@@ -1,1 +1,65 @@
-/* Ini Css External
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.main-header >h1 {
+    background-color: cadetblue;
+    padding: 26px;
+    text-align: center;
+    margin: 0px;
+}
+
+main {
+    text-align: center;
+    background-color: lightyellow;
+    padding: 16px;
+}
+
+.nav-fitur {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-fitur > a {
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 50%;
+    align-self: center;
+}
+
+
+.nav-fitur-inactive {
+    background-color: turquoise;
+}
+
+.nav-fitur-active {
+    background-color: coral;
+}
+
+.section-header {
+    background-color: cadetblue;
+    padding: 16px;
+}
+
+.section-image {
+    background-image: url(../Assets/persegi1_Coding.jpg);
+    width: 100px;
+    height: 100px;
+    justify-self: center;
+    background-size: cover;
+}
+
+.calculate-content {
+    border: 1px solid;
+    height: 300px;
+}
+
+.section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
